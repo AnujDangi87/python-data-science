@@ -1,0 +1,1 @@
+Day 1 files contains basics of python like data Types, syntax, string manipulation etc.
