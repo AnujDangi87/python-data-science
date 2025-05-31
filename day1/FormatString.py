@@ -11,7 +11,7 @@ print("my name is {} and age is {}".format(name, age))
 
 #raw String r'' ->will evaluate \ as a char not as sequence char
 string = "C:\new_folder\file.txt"
-print(string)
+print(string) 
 
 raw_string = r"C:\new_folder\file.txt"
 print(raw_string)
