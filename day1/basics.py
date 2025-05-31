@@ -27,7 +27,7 @@ print(1, "hello")
 
 variable = 4.55
 
-#Python executes airthmetic operations on basis of div, mul, sub ,add
+#Python executes airthmetic operations on basis of BODMAS
 
 #Sting in Python
 name = "Anuj Dangi"

@@ -19,9 +19,34 @@ pattern = "[0-9]{10}"
 result = re.search(pattern, string)
 
 if result:
-    print("Phone number found : ", result.group())
+    print("Phone number found : ", result.group())      #result.group() returns the exact group which is matched #result contains a match object
 else:
     print("No match")
+
+pattern = r"\W"  # Matches any non-word character
+text = "Hello, world!"
+matches = re.findall(pattern, text)
+
+print("Matches:", matches)
+
+split_array = re.split(r"\s", "Anuj Dangi")
+
+# The split_array contains all the substrings, split by whitespace characters
+print(split_array)
+
+# Define the regular expression pattern to search for
+pattern = r"Whitney Houston"
+
+# Define the replacement string
+replacement = "legend"
+
+# Use the sub function to replace the pattern with the replacement string
+new_string = re.sub(pattern, replacement, "Whitney", flags=re.IGNORECASE)
+
+# The new_string contains the original string with the pattern replaced by the replacement string
+print(new_string) 
+
+print("\\\\")
 
 # Special Sequence	Meaning	Example
 # \d	Matches any digit character (0-9)	"123" matches "\d\d\d"
