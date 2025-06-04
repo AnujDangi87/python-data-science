@@ -9,6 +9,9 @@ for ele in lists:
 for i, ele in enumerate(lists):
     print(f"index is {i} value is {ele}")
 
+for i in range(4, -1,-1):
+    print(i)
+
 i = 0
 while(i<5):
     print(i)
