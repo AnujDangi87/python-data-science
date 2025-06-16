@@ -19,6 +19,10 @@ class Circle(object):
     
 
 obj = Circle(2, "red")
+dir(Circle)
 print(obj.radius, obj.color)
 print(obj.get_area())
-obj.drawCircle()
+
+if(4 > 3):
+    t = 4
+print(t)
