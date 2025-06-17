@@ -1,0 +1,2 @@
+this content is already present in 
+file.txt
