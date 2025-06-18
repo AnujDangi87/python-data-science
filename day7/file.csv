@@ -1,0 +1,6 @@
+CustomerID,FirstName,LastName,Email,Country,PurchaseAmount,SignupDate
+1001,Anaya,Mehra,anaya.mehra@example.com,India,482.50,2023-05-14
+1002,Rohan,Kumar,rohan.kumar@example.com,India,215.75,2022-11-02
+1003,Liam,Smith,liam.smith@example.com,USA,899.90,2021-07-20
+1004,Sakura,Tanaka,sakura.tanaka@example.com,Japan,350.00,2024-01-05
+1005,Amira,Ali,amira.ali@example.com,Egypt,123.00,2023-03-18
